@@ -1,0 +1,54 @@
+* {
+    font-family: 'Lilita One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+}
+
+h3{
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+h2{
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+a{
+    color: rgb(192, 170, 255);
+    text-align: center;
+}
+p{
+    font-size: 170%;
+    color: white;
+    padding-bottom: 20%;
+}
+.info {
+    width: 50%;
+    margin: auto;
+}
+body {
+    position: relative;
+    background-image: url("/images/main-background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+}
+body::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.map-icon{
+    width: 4%;
+}
+

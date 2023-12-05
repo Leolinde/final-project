@@ -1,0 +1,22 @@
+.main-img {
+    width: 1440px;
+    height: 1107px;
+}
+.space {
+    margin-top: 150%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust as needed */
+}
+
+.main-img, #mapCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mapCanvas {
+    pointer-events: none; /* Makes the canvas click-through */
+}
